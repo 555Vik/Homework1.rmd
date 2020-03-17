@@ -44,4 +44,6 @@ head(df)
 ```{r}
 install.packages(“tidyverse”)
 library(tidyverse”)
-```
+mean(df$Споживання)
+median(df$Споживання)
+sd(df$Споживання)
